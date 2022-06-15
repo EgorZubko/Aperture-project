@@ -84,5 +84,24 @@
         
     }
 
+    .description__icons {
+        display: flex;
+        width: 256px;
+        justify-content: space-between;
+        position: absolute;
+        left: 80%;
+        top: 90%;
+    }
+
+    .description__about {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #FFFFFF;
+        
+    }
+
 }
 
