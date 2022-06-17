@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.monstera__content {
+	width: calc(1170px + 15px * 2);
+	width: 100%;
+	height: 100vh;
+	background: url("../assets/img/monstera/monstera.png") center;
+	background-size: cover;
+	position: relative;
+
+	.description__text {
+		max-width: 298px;
+		position: absolute;
+		left: 75%;
+		top: 45%;
+	}
+
+	.description__title {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		text-transform: uppercase;
+		color: #ffffff;
+	}
+
+	.descritpion__subtitle {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 20px;
+		color: #c0c0c0;
+	}
+
+	.description__icons {
+		display: flex;
+		width: 256px;
+		justify-content: space-between;
+		position: absolute;
+		left: 80%;
+		top: 90%;
+	}
+
+	.description__about {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		color: #ffffff;
+	}
+}
+.description__icons {
+	display: flex;
+	width: 256px;
+	justify-content: space-between;
+	position: absolute;
+	left: 80%;
+	top: 90%;
+}
+
+.description__about {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	color: #ffffff;
+}
