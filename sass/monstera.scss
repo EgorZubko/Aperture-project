@@ -19,6 +19,13 @@
 		top: 45%;
 	}
 
+	@media (max-width: 1024px) {
+		.description__text {
+			max-width: 262px;
+			left: 70%;
+		}
+	}
+
 	.description__title {
 		font-family: "Poppins";
 		font-style: normal;
@@ -40,11 +47,18 @@
 
 	.description__icons {
 		display: flex;
-		width: 256px;
+		max-width: 256px;
 		justify-content: space-between;
 		position: absolute;
 		left: 80%;
 		top: 90%;
+	}
+
+	@media (max-width: 1024px) {
+		.description__icons {
+			max-width: 500px;
+			left: 70%;
+		}
 	}
 
 	.description__about {

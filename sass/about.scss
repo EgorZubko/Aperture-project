@@ -87,4 +87,63 @@
 			}
 		}
 	}
+
+	@media (max-width: 1024px) {
+		.about__section {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 16px;
+			width: 100%;
+
+			img {
+				max-width: 490px;
+				max-height: 516px;
+			}
+
+			.about__card {
+				position: absolute;
+				top: 257px;
+				left: 30px;
+				max-width: 460px;
+				padding: 100px 45px 0 0;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.about__section {
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 16px;
+			width: 100%;
+
+			img {
+				width: 354px;
+				height: 352px;
+			}
+
+			.about__card {
+				position: absolute;
+				top: 31px;
+				left: 25px;
+				padding: 100px 45px 0 0;
+
+				svg {
+					width: 23px;
+					height: 23px;
+				}
+
+				.about__btn {
+					font-size: 12px;
+					line-height: 20px;
+					padding: 4px 2px 9px 37px;
+					max-width: 143px;
+				}
+
+				svg {
+					position: absolute;
+					bottom: 8px;
+					left: 5px;
+				}
+			}
+		}
+	}
 }

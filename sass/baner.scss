@@ -11,47 +11,68 @@
 	background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%),
 		url("../assets/img/baner/baner.png");
 	padding-top: 500px;
-}
-.baner__item {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 
-	.baner__text {
-		max-width: 600px;
+	.baner__item {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
-		.suptitle {
-			font-family: "Poppins";
-			font-style: normal;
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 20px;
-			text-align: center;
-			letter-spacing: 2px;
-			text-transform: uppercase;
-			color: #c0c0c0;
-		}
+		.baner__text {
+			max-width: 600px;
 
-		.title {
-			font-family: "Poppins";
-			font-style: normal;
-			font-weight: 400;
-			font-size: 54px;
-			line-height: 59px;
-			text-align: center;
-			color: #ffffff;
-			margin-bottom: 30px;
-		}
+			.suptitle {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 20px;
+				text-align: center;
+				letter-spacing: 2px;
+				text-transform: uppercase;
+				color: #c0c0c0;
+			}
 
-		.baner__description {
-			font-family: "Poppins";
-			font-style: normal;
-			font-weight: 400;
-			font-size: 14px;
-			line-height: 20px;
-			text-align: center;
-			color: #c0c0c0;
+			.title {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 54px;
+				line-height: 59px;
+				text-align: center;
+				color: #ffffff;
+				margin-bottom: 30px;
+			}
+
+			.baner__description {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 20px;
+				text-align: center;
+				color: #c0c0c0;
+			}
+
+			@media (max-width: 1024px) {
+				.title {
+					font-size: 45px;
+					line-height: 50px;
+					margin-bottom: 20px;
+				}
+
+				.baner__icon {
+					padding-top: 24px;
+				}
+
+				.icon__text {
+					margin-left: 8px;
+					margin-right: 17px;
+				}
+			}
+
+			@media (max-width: 768px) {
+			}
 		}
 	}
 }
