@@ -5,92 +5,85 @@
 }
 
 .about {
-	margin: 0 auto;
 	background-color: #000000;
+	padding-bottom: 100px;
 
-	.about__content {
-		max-width: calc(1170px + 15px * 2);
-		height: 100%;
-		width: 100%;
-		margin: 0 auto;
-		padding: 112px 0 100px;
+	.about__section {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 16px;
+		justify-content: center;
+	}
+	.about__title {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 42px;
+		text-align: center;
+		color: #ffffff;
+		padding-top: 112px;
+	}
 
-		.about__section {
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			grid-gap: 16px;
-			justify-content: center;
-		}
-		.about__title {
-			font-family: "Poppins";
-			font-style: normal;
-			font-weight: 400;
-			font-size: 40px;
-			line-height: 42px;
-			text-align: center;
-			color: #ffffff;
-		}
+	.about__subtitle {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: 400;
+		font-size: 23px;
+		line-height: 30px;
+		text-align: center;
+		color: #c0c0c0;
+		margin-bottom: 42px;
+	}
 
-		.about__subtitle {
-			font-family: "Poppins";
-			font-style: normal;
-			font-weight: 400;
-			font-size: 23px;
-			line-height: 30px;
-			text-align: center;
-			color: #c0c0c0;
-			margin-bottom: 42px;
-		}
+	.about__pic {
+		position: relative;
 
-		.about__pic {
-			position: relative;
+		.about__card {
+			position: absolute;
+			top: 320px;
+			left: 30px;
+			max-width: 501px;
+			padding: 100px 45px 0 0;
 
-			.about__card {
+			.about__suptitle {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 20px;
+				text-transform: uppercase;
+				color: #ffffff;
+			}
+
+			.about__description {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 20px;
+				color: #c0c0c0;
+				margin-bottom: 10px;
+			}
+
+			.about__btn {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: 400;
+				font-size: 15px;
+				line-height: 20px;
+				color: #000000;
+				background: #ffffff;
+				border-radius: 14px;
+				padding: 9px 5px 13px 37px;
+				max-width: 143px;
+				position: relative;
+			}
+
+			svg {
 				position: absolute;
-				top: 320px;
-				left: 30px;
-				max-width: 501px;
-				padding: 100px 45px 0 0;
-
-				.about__suptitle {
-					font-family: "Poppins";
-					font-style: normal;
-					font-weight: 400;
-					font-size: 14px;
-					line-height: 20px;
-					text-transform: uppercase;
-					color: #ffffff;
-				}
-
-				.about__description {
-					font-family: "Poppins";
-					font-style: normal;
-					font-weight: 400;
-					font-size: 14px;
-					line-height: 20px;
-					color: #c0c0c0;
-					margin-bottom: 10px;
-				}
-
-				.about__btn {
-					font-family: "Poppins";
-					font-style: normal;
-					font-weight: 400;
-					font-size: 15px;
-					line-height: 20px;
-					color: #000000;
-					background: #ffffff;
-					border-radius: 14px;
-					padding: 9px 5px 13px 37px;
-					max-width: 143px;
-					position: relative;
-				}
-
-				svg {
-					position: absolute;
-					bottom: 8px;
-					left: 5px;
-				}
+				bottom: 8px;
+				left: 5px;
 			}
 		}
 	}

@@ -1,0 +1,21 @@
+@import url(./header.scss);
+@import url(./baner.scss);
+@import url(./about.scss);
+@import url(./sunset.scss);
+@import url(./tools.scss);
+@import url(./monstera.scss);
+@import url(./clients.scss);
+@import url(./star.scss);
+@import url(./need.scss);
+@import url(./footer.scss);
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.content {
+	max-width: calc(1170px + 15px * 2);
+	padding: 0 15px;
+	margin: 0 auto;
+}

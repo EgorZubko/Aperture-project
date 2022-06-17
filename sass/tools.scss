@@ -1,15 +1,9 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 .tools {
 	background-color: #000000;
 }
 
 .tools__content {
-	width: calc(1170px + 15px * 2);
+	max-width: calc(1440px + 15px * 2);
 	width: 100%;
 
 	.tools__text {
@@ -47,6 +41,7 @@
 			line-height: 20px;
 			color: #ffffff;
 			padding-top: 14px;
+			padding-bottom: 20px;
 		}
 
 		.about__btn {
