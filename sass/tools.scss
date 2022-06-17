@@ -4,11 +4,13 @@
 	box-sizing: border-box;
 }
 
+.tools {
+	background-color: #000000;
+}
+
 .tools__content {
 	width: calc(1170px + 15px * 2);
 	width: 100%;
-	height: 100%;
-	background: #000000;
 
 	.tools__text {
 		display: flex;
