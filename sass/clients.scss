@@ -16,6 +16,12 @@
 		color: #ffffff;
 	}
 
+	@media (max-width: 768px) {
+		.clients__title {
+			font-size: 37px;
+		}
+	}
+
 	.clients__subtitle {
 		font-family: "Poppins";
 		font-style: normal;

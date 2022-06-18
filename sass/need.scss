@@ -21,6 +21,12 @@
 		color: #ffffff;
 	}
 
+	@media (max-width: 768px) {
+		.need__title {
+			font-size: 35px;
+		}
+	}
+
 	.need__subtitle {
 		font-family: "Poppins";
 		font-style: normal;
@@ -51,5 +57,18 @@
 		position: absolute;
 		top: 225px;
 		left: 521px;
+	}
+
+	@media (max-width: 1024px) {
+		svg {
+			left: 432px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		svg {
+			top: 269px;
+			left: 303px;
+		}
 	}
 }
